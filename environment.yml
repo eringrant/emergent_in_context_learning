@@ -1,0 +1,16 @@
+name: emergent_in_context_learning
+
+channels:
+  - default
+  - conda-forge
+
+dependencies:
+  - python>=3.6
+  - numpy==1.23.2
+  
+  - tensorflow==2.9.1
+
+  - pip
+  - pip:
+    - -e .
+
